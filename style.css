@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+body{
+    background-color: rgba(238, 232, 215, 0.906);
+}
+header{
+    background-image: url("pictures/header.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.menu{
+    list-style: none;
+    float: right;
+}
+li{
+    display: inline-block;
+    margin:20px;
+    color: rgb(171, 169, 163);
+    text-shadow: 1px 1px rgb(216, 210, 194) ;
+}
+.menulink{
+    display: inline-block;
+    color: rgb(171, 169, 163);
+}
+h1{
+    padding-top: 260px;
+    font-size: 70px;
+    color: rgb(121, 121, 119);
+    text-shadow: 1px 1px rgb(216, 210, 194) ;
+}
+.info{
+    padding: 15px;
+}
+.infoarticl{
+    color:rgb(118, 110, 91) ;
+    margin: 20px 0px;
+    font-size: 30px;
+}
+.infoleft{
+    display: inline-block;
+    vertical-align: top;
+    width: 47%;
+}
+.infotext{
+    color: rgb(140, 134, 119);
+    font-size: 20px;
+}
+.inforight{
+    background-image: url("pictures/ascheme-removebg-preview.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 47%;
+    height: 400px;
+    display: inline-block;
+    margin-left: 40px;
+}
+.options-art{
+    font-size: 30px;
+    color:rgb(118, 110, 91) ;
+    margin: 15px;
+    text-align: center;
+}
+.options-left{
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    text-align: center;
+}
+.options-articl{
+    font-size: 25px;
+    color:rgb(118, 110, 91) ;
+    margin:15px 20px;
+}
+.options-text{
+    color:rgb(140, 134, 119) ;
+    margin: 16px;
+    font-size: 20px;
+}
+.options-btn{
+    background-color:rgb(140, 134, 119) ;
+    color: white;
+    font-size: 15px;
+    padding: 5px 30px;
+    text-align: center;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.options-right-one{
+    background-image: url("pictures/apartament1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 48%;
+    height: 300px;
+}
+.options-right-two{
+    background-image: url("pictures/apartament2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 48%;
+    height: 300px;
+}
+.options-right-three{
+    background-image: url("pictures/apartament3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 48%;
+    height: 300px;
+}
+.form-articl{
+    text-align: center;
+    color:rgb(118, 110, 91) ;
+    margin: 70px 0px 30px 0px;
+}
+.input{
+    background: none;
+    border: none;
+    display: block;
+    font-size: 20px;
+    padding: 0px 20px;
+    border-bottom: 1px solid rgb(140, 134, 119);
+    width: 100%;
+    outline: none;
+    color:rgb(80, 77, 68) ;
+    margin: 0px 10px 30px 10px;
+}
+.input::placeholder{
+    color:rgb(140, 134, 119);
+}
+label{
+    color:rgb(118, 110, 91) ;
+    font-size: 20px;
+    margin:15px;
+}
+.button{
+    text-align: center;
+}
+button{
+    background-color:rgb(140, 134, 119) ;
+    padding: 7px 30px;
+    margin: 50px;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+@media (max-width:860px){
+    .infoarticl{
+        font-size: 25px;
+        margin: 5px 0px;
+    }
+    .infotext{
+        font-size: 15px;
+    }
+    .inforight{
+        margin-left: 20px;
+        height: 300px;
+    }
+}
+@media (max-width:600px){
+    h1{
+        font-size: 50px;
+    }
+    li{
+        display: block;
+    }
+    .infoleft{
+        width: 100%;
+    }
+    .inforight{
+        height: 350px;
+        width: 100%;
+        margin: 0px;
+    }
+    .options-art{
+        font-size:25px ;
+    }
+    .options-left{
+        width: 100%;
+    }
+    .options-right-one{
+        width: 90%;
+        margin: 20px;
+    }
+    .options-right-two{
+        width: 90%;
+        margin: 20px;
+    }
+    .options-right-three{
+        width: 90%;
+        margin: 20px;
+    }
+    .options-text{
+        font-size: 15px;
+    }
+}
