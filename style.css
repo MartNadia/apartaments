@@ -15,7 +15,7 @@ body{
     background-color: rgba(238, 232, 215, 0.906);
 }
 header{
-    background-image: url("pictures/header.jpg");
+    background-image: url("pictures/moscow.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -33,19 +33,19 @@ li{
 }
 .menulink{
     display: inline-block;
-    color: rgb(171, 169, 163);
+    color: rgb(124, 122, 117);
 }
 h1{
     padding-top: 260px;
     font-size: 70px;
-    color: rgb(121, 121, 119);
-    text-shadow: 1px 1px rgb(216, 210, 194) ;
+    color: rgba(238, 232, 215, 0.906);
+    text-shadow: 10px 5px rgb(171, 168, 160);
 }
 .info{
     padding: 15px;
 }
 .infoarticl{
-    color:rgb(118, 110, 91) ;
+    color:rgb(124, 122, 117);
     margin: 20px 0px;
     font-size: 30px;
 }
